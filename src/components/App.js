@@ -14,7 +14,8 @@ class App extends React.Component {
 }
 // PropType Validation
 App.propTypes = {
-    children: PropTypes.object.isRequired
+    children: PropTypes.object.isRequired,
+    loading: PropTypes.bool.isRequired
 };
 
 function mapStateToProps(state, ownProps) {

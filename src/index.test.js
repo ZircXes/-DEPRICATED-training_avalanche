@@ -1,7 +1,7 @@
 import expect from 'expect';
 
-describe('Our first test', () => {
-  it('should pass', () => {
+describe('Index Default Test', () => {
+  it('Test Should Always Pass', () => {
     expect(true).toEqual(true);
   });
 });
